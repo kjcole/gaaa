@@ -13,6 +13,26 @@ let tonic = 27.5
 let twelfth_root = 1.0594630943592953
 let note = tonic
 let scale = []
+let keyboard = {
+    "z" : Note.C4,
+    "s" : Note.CSharp4,
+    "x" : Note.D4,
+    "d" : Note.Eb4,
+    "c" : Note.E4,
+    "v" : Note.F4,
+    "g" : Note.FSharp4,
+    "b" : Note.G4,
+    "h" : Note.GSharp4,
+    "n" : Note.A4,
+    "j" : Note.Bb4,
+    "m" : Note.B4,
+    "," : Note.C5,
+    "l" : Note.CSharp5,
+    "." : Note.D5,
+    ";" : Note.Eb5,
+    "/" : Note.E5,
+}
+
 for (let index = 0; index < 88; index++) {
     scale.push(note)
     note = note * twelfth_root
@@ -21,6 +41,8 @@ for (let index = 0; index < 88; index++) {
 //  music.play_tone(tonic, music.beat(BeatFraction.WHOLE))
 //  print(tonic)
 basic.forever(function on_forever() {
+    
+    
     
     ping = serial.readBuffer(0)
     if (ping.length > 0) {
