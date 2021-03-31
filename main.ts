@@ -42,6 +42,7 @@ basic.forever(function () {
     if (ping.length > 0) {
         ivory = keyboard[ping.toString()]
         music.playTone(ivory, music.beat(BeatFraction.Half))
+        serial.writeBuffer(ping)
         basic.showString("" + (ping.toString()))
     }
 })
