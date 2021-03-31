@@ -1,5 +1,5 @@
 
-> Open this page at [https://kjcole.github.io/gaaa/](https://kjcole.github.io/gaaa/)
+> Open this page at [https://kjcole.github.io/microbit-keyboarding/](https://kjcole.github.io/microbit-keyboarding/)
 
 ## Use as Extension
 
@@ -8,22 +8,22 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/kjcole/gaaa** and import
+* search for **https://github.com/kjcole/microbit-keyboarding** and import
 
-## Edit this project ![Build status badge](https://github.com/kjcole/gaaa/workflows/MakeCode/badge.svg)
+## Edit this project ![Build status badge](https://github.com/kjcole/microbit-keyboarding/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/kjcole/gaaa** and click import
+* paste **https://github.com/kjcole/microbit-keyboarding** and click import
 
 ## Blocks preview
 
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
-![A rendered view of the blocks](https://github.com/kjcole/gaaa/raw/master/.github/makecode/blocks.png)
+![A rendered view of the blocks](https://github.com/kjcole/microbit-keyboarding/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
