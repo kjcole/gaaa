@@ -13,7 +13,6 @@ let tonic = 27.5
 let twelfth_root = 1.0594630943592953
 let note = tonic
 let scale = []
-
 for (let index = 0; index < 88; index++) {
     scale.push(note)
     note = note * twelfth_root
